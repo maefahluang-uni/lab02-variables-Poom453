@@ -6,10 +6,10 @@ public class Program
     public static void Main(string[] args)
     {
 
+        Console.WriteLine("Enter fahrenheit");
         string? input = Console.ReadLine();
         int F = Convert.ToInt32(input);
         double c = (F - 32) * 5/9;
         Console.WriteLine("celsius is"+ c);
-
     }
 }
