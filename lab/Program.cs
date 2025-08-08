@@ -7,9 +7,9 @@ public class Program
     {
 
         string? input = Console.ReadLine();
-        int fahrentheit = Convert.ToInt32(input);
-        double celsuis = (fahrentheit - 32) * 5/9;
-        Console.WriteLine(celsuis);
+        int F = Convert.ToInt32(input);
+        double c = (F - 32) * 5/9;
+        Console.WriteLine("celsius is"+ c);
 
     }
 }
